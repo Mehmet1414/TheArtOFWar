@@ -74,11 +74,12 @@ header ul li a {
   padding-left: 10%;
   padding-right: 10%;
   gap: 6%;
+  
 }
 .text-about {
   flex: 1;
-  overflow: scroll;
   margin: auto;
+  
 }
 .text-about h1 {
   font-size: 60px;
@@ -91,6 +92,7 @@ header ul li a {
   line-height: 1.3;
   font-size: 18px;
   opacity: 0.8;
+
 }
 .text-about p span {
   text-decoration: underline yellow;
@@ -186,10 +188,10 @@ header ul li a {
 }
 .opinions-text h1 {
   font-size: 80px;
-  max-width: 70%;
+  max-width: 80%;
 }
 .opinions-text p {
-  width: 80%;
+  max-width: 80%;
 }
 .opinions-text button {
   width: 50%;
@@ -274,4 +276,96 @@ header ul li a {
   .img-wrapper img {
     opacity: 0.6;
   }
+
+  .welcome-text-container {
+    width: 80%;
+    margin: 50px auto;
+  }
+  .welcome-text-container h1 {
+    font-size: 80px;
+    text-shadow: 2px 2px 10px #000000;
+  }
+  .welcome-text-container p {
+    max-width:500px;
+    font-size: 24px;
+    font-style: italic;
+    margin: 40px auto;
+  }
+
+
+  #battle .battle-h4 {
+    margin-top: 50px;
+    font-size: 30px;
+  }
+  #battle .battle-h1 {
+    margin-top: 10px;
+    font-size: 50px;
+    text-align: center;
+  }
+  .boxes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 50px;
+    opacity: 0.7;
+  }
+  .boxes > div {
+    max-width: 80%;
+  }
+  .boxes .end-text {
+    max-width: 80%;
+    overflow: scroll;
+
+  }
+  .left-div, .right-div{
+    overflow: scroll;
+  }
+  .boxes .end-text h4 {
+    padding-top: 20px;
+    font-size: 20px;
+  }
+  
+  #opinions {
+    display: flex;
+    flex-direction: column;
+  }
+  .opinions-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 40px auto;
+    padding: 0 70px;
+    gap: 20px;
+  }
+  .opinions-text h1 {
+    font-size: 50px;
+  }
+
+  .cards {
+    padding: 0 70px;
+    overflow-x: scroll;
+    margin-bottom: 40px;
+    
+  }
+  .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(89, 87, 87);
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  .card:nth-child(2) {
+    float: none;
+    margin-bottom: -5px;
+    margin-top: -5px;
+    border: 1px solid rgb(41, 40, 40);
+    margin: 10px 0;
+  }
+  
 }
